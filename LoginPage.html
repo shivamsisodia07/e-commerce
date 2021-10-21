@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="myntra.css">
+    <title>myntra</title>
+</head>
+
+<body>
+<!-- ************************NAVBAR***************************** -->
+<div class="nav-12 justify-content-center" id="navbar">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="logo.png"><img src="images/logo1.jpg" alt="@@" style="width: 30%;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Myntra.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Men</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">kids</a>
+                    </li>
+                </ul>
+                <form class="d-flex a ">
+                    <input class=" form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class=" btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class="activity_section d-flex flex-row ">
+                    <div class="activity" id="activity1">
+                        <div class="profile_img"><a href="LoginPage.html"><img class="activity_img"
+                                    src="images/profile.jpg" alt="&"></a></div>
+                        <div class="activity_text" id="profile_text">login</div>
+                    </div>
+                    <div class="activity" id="activity2">
+                        <div class="cart1"><img class="activity_img" src="images/cart.jpg" alt=""></div>
+                        <div id="cart2" class="activity_text"> Cart</div>
+                    </div>
+                    <div class="activity" id="activity3">
+                        <div class="theme1"><img class="activity_img" src="images/darkmode.png" alt=""></div>
+                        <div id="theme2" class="activity_text">dark</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="loginPage" id="loginPage">
+        <div class="login">
+            <div class="" id="login1"><img id="login_a10" src="images/loginimg.webp" alt="myntra"></div>
+            <div class="" id="login2">
+                <div class="welcomeheader" style="font-family: Arial, Helvetica, sans-serif;">Login
+
+                    <span id="signup" style="font-family: Arial, Helvetica, sans-serif; color: grey;"> or</span> Signup
+                </div>
+
+                <div id="mobnum"> +91 |
+                    <input id="mobin" type="number" placeholder="mobile number*" required>
+                </div>
+
+                <div id="a12">
+                    <p id="a13">By continuing .i agree to the
+                        <span class="agree">Terms of Use </span>&<span class="agree"> privacy Policy</span>
+                    </p>
+                </div>
+                <div class="continue" style="align-items: center;">
+                    <button id="con_btn" type="button">Continue</button>
+                </div>
+
+                <div style="margin-left: 11%;">
+                    <p style="color: whitesmoke;"> have trouble logging in?
+                        <span class="agree"><a class="agree" href="#"> get help</a> </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="myntra.js"></script>
+</body>
+
+</html>
