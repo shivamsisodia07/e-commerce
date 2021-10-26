@@ -16,51 +16,52 @@
 <!-- ************************NAVBAR***************************** -->
 <div class="nav-12 justify-content-center" id="navbar">
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="logo.png"><img src="images/logo1.jpg" alt="@@" style="width: 30%;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Myntra.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Men</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Women</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">kids</a>
-                    </li>
-                </ul>
-                <form class="d-flex a ">
-                    <input class=" form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class=" btn btn-outline-danger" type="submit">Search</button>
-                </form>
-                <div class="activity_section d-flex flex-row ">
-                    <div class="activity" id="activity1">
-                        <div class="profile_img"><a href="LoginPage.html"><img class="activity_img"
-                                    src="images/profile.jpg" alt="&"></a></div>
-                        <div class="activity_text" id="profile_text">login</div>
-                    </div>
-                    <div class="activity" id="activity2">
-                        <div class="cart1"><img class="activity_img" src="images/cart.jpg" alt=""></div>
-                        <div id="cart2" class="activity_text"> Cart</div>
-                    </div>
-                    <div class="activity" id="activity3">
-                        <div class="theme1"><img class="activity_img" src="images/darkmode.png" alt=""></div>
-                        <div id="theme2" class="activity_text">dark</div>
-                    </div>
-                </div>
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="images/logo1.png"><img id="company_name" src="images/logo1.jpg" alt="@@"></a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Myntra.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Men</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">kids</a>
+            </li>
+          </ul>
+          <form class="d-flex a ">
+            <input class=" form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class=" btn btn-outline-danger" type="submit">Search</button>
+          </form>
+          <div class="activity_section d-flex flex-row ">
+            <div class="activity" id="activity1">
+              <div class="profile_img"><a href="LoginPage.html"><ion-icon name="person-outline"></ion-icon></a></div>
+              <div class="activity_text" id="profile_text">login</div>
             </div>
+            <!-- <img class="activity_img" src="images/cart.jpg" alt=""> -->
+            <div class="activity" id="activity2">
+              <div class="cart1">
+                <ion-icon name="bag-outline"></ion-icon>
+              </div>
+              <div id="cart2" class="activity_text"> Cart</div>
+            </div>
+            <div class="activity" id="activity3">
+              <div class="theme1"><ion-icon name="moon-outline"></ion-icon></div>
+              <div id="theme2" class="activity_text">dark</div>
+            </div>
+          </div>
         </div>
+      </div>
     </nav>
-</div>
+  </div>
 
     <div class="loginPage" id="loginPage">
         <div class="login">
@@ -92,7 +93,8 @@
             </div>
         </div>
     </div>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="myntra.js"></script>
 </body>
