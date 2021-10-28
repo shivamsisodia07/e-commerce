@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="myntra.css">
+  <title>myntra</title>
+</head>
+
+<body>
+  <!--navbar -->
+  <div class="nav-12 justify-content-center" id="navbar">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="brand_logo"><a href="">SM</a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Men.html">Men</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="Women.html">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Kids.html">kids</a>
+            </li>
+          </ul>
+
+
+          <form class="d-flex a ">
+            <input class=" form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class=" btn btn-outline-danger" type="submit">Search</button>
+          </form>
+
+
+          <div class="activity_section  flex-row ">
+            <div class="activity" id="activity1">
+              <div class="profile_img"><a href="LoginPage.html">
+                  <ion-icon name="person-outline"></ion-icon>
+                </a></div>
+              <div class="activity_text" id="profile_text">login</div>
+            </div>
+            <div class="activity" id="activity2">
+              <div class="cart1">
+                <ion-icon name="bag-outline"></ion-icon>
+              </div>
+              <div id="cart2" class="activity_text"> Cart</div>
+            </div>
+            <div class="activity" id="activity3">
+              <div class="theme1">
+                <ion-icon name="moon-outline"></ion-icon>
+              </div>
+              <div id="theme2" class="activity_text">dark</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="homepage" id="homepage">
+    <div class="banner single" id="b1">
+
+      <div><a href=""><img class="banner_img"
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/10/2e04ed5e-2263-45e4-b169-f2a50c162ecf1633880451346-Sale-is-Live-Samantha.jpg"
+            alt=""></a></div>
+      <div><a href=""><img class="banner_img"
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/9/430fbc0d-623f-4c54-84c8-bde6505331191633797988468-HU_DK.jpg"
+            alt=""></a></div>
+      <div><a href=""><img class="banner_img"
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/9/c70d64d7-1b76-4a3b-b79e-648394b40d471633798541856-Tops---Tees_Desk--4-.jpg"
+            alt=""></a></div>
+      <div><a href=""><img class="banner_img"
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/10/8878339d-e2e7-4645-80f7-b0905bad2b501633880451336-Sale-is-Live-Saif.jpg"
+            alt=""></a></div>
+
+    </div>
+
+    <!-- row1 -->
+    <div class="rows">
+      <div class="card_title" id="row1_tiltle">
+        <h2>DEALS OF THE DAY</h2>
+      </div>
+      <div class="card-deck d-flex flex-row justify-content-center slick">
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2021/9/27/226e21ef-d210-418d-aa0b-fb77f74372181632716459319-Adidas_-_Reebok.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/9/e6e3ea04-678e-460e-acc6-d396755a83f31633798933947-sweaters---sweatshirts--2-.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/9/efc8b848-22f2-49e6-be0f-c0cec540b5af1633798851552-casual-wear--4-.jpg"
+            alt="Card image cap" alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/9/f9cfc9aa-82da-41a1-ba3d-c437b8d622501633798933985-Festive-kurtas.jpg"
+            alt="Card image cap" alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/9/fc01a18c-5c12-411f-8e09-6468fb9e00891633798933964-kids-Indian-wear--1-.jpg"
+            alt="Card image cap" alt="Card image cap">
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- row2 -->
+    <div class="rows">
+
+      <div class="card_title" id="row3_tiltle">
+        <h2>BIGGEST DEALS ON TOP BRANDS</h2>
+      </div>
+      <div class="card-deck d-flex flex-row justify-content-center slick">
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/e72c82f2-cfd5-4f9a-b1b0-ba9e2b3e51251598892519506-W.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/14/d5c17859-f366-4a65-ab42-5a066254feaa1605363272474-Home---GAP.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/af31285e-f6a3-426e-bbea-0aedef9da17c1598892377537-Tommy-Hilfiger.jpg"
+            alt="Card image cap" alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/581e2bf6-6d47-4a4b-a11f-43200dc9c6791598892519362-Puma.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8d5afb84-a464-40af-9971-2e9f0827e9b71598892377591-UCB.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2021/10/12/121c4da5-9e61-4647-98ec-2f35ee40e1951634030134129-trending-dresses.jpg"
+            alt="Card image cap">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- //row3///////////////////// -->
+    <div class="rows ">
+
+      <div class="card_title" id="row2_tiltle">
+        <h2>EXPLORE TOP BRANDS</h2>
+      </div>
+      <div class="card-deck d-flex flex-row justify-content-center slick">
+
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/a88b9390-5adb-493b-a1b3-702c59ccf53a1598348260502-Nike.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/c9f66558-feab-4d76-aa3c-adc68d81dce21598348260415-Levis.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/5/178c1e5d-69f2-402f-a2a5-ef44700a0f691596640983793-Roadster---.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/085719b1-c71e-4f47-950c-9a6b7f291fac1598348260370-Jack-_-Jones.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/f2fdda02-423c-4f11-8f1b-618ba807e5841598348260323-H_M.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/f6e40444-b1a4-4c91-bb3c-fe213356e7de1598348260541-Only.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/5/a6de806a-b58b-460b-97fd-d78d80eab39b1596641021693-Women-s-Ethnic-Wear_Anouk.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/8d13b55d-a6a0-40ae-b39f-16f43e7911681598348260460-MAC.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/046ab589-87d5-4afa-8ab3-10e06fdbe6a61598348260596-W.jpg"
+            alt="Card image cap">
+
+        </div>
+        <div class="card col-sm-2">
+          <img class="card-img"
+            src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/f2fdda02-423c-4f11-8f1b-618ba807e5841598348260323-H_M.jpg"
+            alt="Card image cap">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li><a href="https://www.facebook.com/shivam.sisodia.54/">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li><a href="https://www.linkedin.com/in/shivam-sisodia-80495a204/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li><a href="https://www.instagram.com/shivam.sisodia.007/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+      <li><a href="https://twitter.com/Shivam7Sisodia">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">Kids</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+
+    <p>@2021 SHIVAM MEGAMART | All Rights Reserved</p>
+  </footer>
+
+
+
+
+
+
+  <!-- icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- slidng card-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- javascript -->
+  <script src="myntra.js"></script>
+</body>
+
+</html>
