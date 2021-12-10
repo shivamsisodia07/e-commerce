@@ -110,7 +110,7 @@ gap: 4px !important;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 700vh;
+    height: 500vh;
     margin-top: 0%;
     border: 2px solid brown;
     background:linear-gradient( to top left ,#f79635,#ba2569)
@@ -302,8 +302,9 @@ background-position-x: 0px;
 }
 
 .card-img:hover{
-  box-shadow:  0 8px #eb0d66, 0 0 8px #d51174;
+  box-shadow: 1px -5px 11px 6px #f91a58, 2px -6px 17px #ffffff;
 }
+
 .pressed{
     box-shadow: 10px 5px 5px red;
     scrollbar-shadow-color: blue;
