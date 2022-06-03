@@ -8,12 +8,12 @@ $('.single').slick({
   autoplaySpeed: 3000,
 });
               // to change theme
-$('#activity3').click(function(){
-$('#theme2').text("Light");
-$('.theme1').html('<ion-icon name="sunny-outline"></ion-icon>');
-$(".activity").css({"color":"blue"});
-$(".profile_img a ion-icon").css({"color":"blue"});
-});
+// $('#activity3').click(function(){
+// $('#theme2').text("Light");
+// $('.theme1').html('<ion-icon name="sunny-outline"></ion-icon>');
+// $(".activity").css({"color":"blue"});
+// $(".profile_img a ion-icon").css({"color":"blue"});
+// });
 
 
 $('.slick').slick({
